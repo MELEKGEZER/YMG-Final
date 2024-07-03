@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'melekgezer-html-server'
-        CONTAINER_NAME = 'melekgezer-container'
+        DOCKER_IMAGE = 'Glassfish-server'
+        CONTAINER_NAME = 'Glassish-container'
         PORT_MAPPING = '8090:80'
     }
 
