@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'melekgezer-html-server'
         CONTAINER_NAME = 'melekgezer-container'
-        PORT_MAPPING = '4444:80'
+        PORT_MAPPING = '8090:80'
     }
 
     stages {
